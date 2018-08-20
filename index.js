@@ -1,6 +1,6 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  name.push();
+  push(name);
   return name;
 }
 
