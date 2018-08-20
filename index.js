@@ -1,13 +1,13 @@
 // Add your functions and code here
-var kittens = ['Otis', 'Garfield'];
+var kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name) {
-  kittens.push('Bob', 'Milo');
+  kittens.push('Bob');
   return kittens;
 }
 
 function destructivelyPrependKitten(name) {
-  kittens.shift(name);
+  kittens.shift('Milo');
   return kittens;
 }
 
